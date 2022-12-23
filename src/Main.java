@@ -3,7 +3,6 @@ import transport.Car;
 public class Main {
     public static void main(String[] args) {
 
-
         Car carLada = new Car("Lada", "Granta", "Желтый", "Россия", 2015, 1.7f,"Механика", "Седан", 4, 1234, "Зимняя");
         Car carAudi = new Car("Audi", "A8 50 L TDI quat", "Черный", "Германия", 2020, 3.0f,"Автомат", "Спорт", 4, 5678, "Летняя");
         Car carBMW = new Car("BMW", "Z8", "Черный", "Германия", 2021  , 3.0f,"Механика", "Седан", 4, 9012, "Зимняя");
