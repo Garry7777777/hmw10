@@ -46,6 +46,21 @@ public class Car {
 
     }
 
+    private static class Key {
+        private final Boolean remoteStart;
+        private final Boolean keylessAccess;
+
+        public Key(Boolean remoteStart, Boolean keylessAccess) {
+
+            if (remoteStart == null)  this.remoteStart = false;
+                else this.remoteStart = remoteStart;
+
+            if (keylessAccess == null) this.keylessAccess = false;
+                else this.keylessAccess = keylessAccess;
+            }
+        }
+
+    }
     public void changeTires(int month) {
         isWinterTires = month < 12 && month > 2;
     }
